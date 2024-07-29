@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Representation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .pink {
+            background-color: #fbb;
+        }
+        .blue {
+            background-color: #afeeef;
+        }
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>علاقة اوربا بمصر من خلال الرواتب</h1>
+
+        <div class="button-container">
+            <button onclick="window.print()">Print</button>
+            <button onclick="copyContent()">Copy Content</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>اوربا يورو</th>
+                    <th>الراتب في مصر</th>
+                    <th>عدد الساعات العمل في التدريس اون لاين</th>
+                    <th>عدد الساعات العمل في اليوم ٦ ايام في الاسبوع</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="pink">
+                    <td>100</td>
+                    <td>5000</td>
+                    <td>40</td>
+                    <td>1.5</td>
+                </tr>
+                <tr class="pink">
+                    <td>200</td>
+                    <td>10000</td>
+                    <td>80</td>
+                    <td>3.1</td>
+                </tr>
+                <tr class="pink">
+                    <td>300</td>
+                    <td>15000</td>
+                    <td>120</td>
+                    <td>4.6</td>
+                </tr>
+                <tr class="pink">
+                    <td>400</td>
+                    <td>20000</td>
+                    <td>160</td>
+                    <td>6.2</td>
+                </tr>
+                <tr class="pink">
+                    <td>500</td>
+                    <td>25000</td>
+                    <td>200</td>
+                    <td>7.7</td>
+                </tr>
+                <tr class="pink">
+                    <td>600</td>
+                    <td>30000</td>
+                    <td>240</td>
+                    <td>9.2</td>
+                </tr>
+                <tr class="blue">
+                    <td>700</td>
+                    <td>35000</td>
+                    <td>280</td>
+                    <td>10.8</td>
+                </tr>
+                <tr class="pink">
+                    <td>800</td>
+                    <td>40000</td>
+                    <td>320</td>
+                    <td>12.3</td>
+                </tr>
+                <tr class="pink">
+                    <td>900</td>
+                    <td>45000</td>
+                    <td>360</td>
+                    <td>13.8</td>
+                </tr>
+                <tr class="pink">
+                    <td>1000</td>
+                    <td>50000</td>
+                    <td>400</td>
+                    <td>15.4</td>
+                </tr>
+                <tr>
+                    <td>1100</td>
+                    <td>55000</td>
+                    <td>440</td>
+                    <td>16.9</td>
+                </tr>
+                <tr>
+                    <td>1200</td>
+                    <td>60000</td>
+                    <td>480</td>
+                    <td>18.5</td>
+                </tr>
+                <tr>
+                    <td>1300</td>
+                    <td>65000</td>
+                    <td>520</td>
+                    <td>20.0</td>
+                </tr>
+                <tr>
+                    <td>1400</td>
+                    <td>70000</td>
+                    <td>560</td>
+                    <td>21.5</td>
+                </tr>
+                <tr>
+                    <td>1500</td>
+                    <td>75000</td>
+                    <td>600</td>
+                    <td>23.1</td>
+                </tr>
+                <tr>
+                    <td>1600</td>
+                    <td>80000</td>
+                    <td>640</td>
+                    <td>24.6</td>
+                </tr>
+                <tr>
+                    <td>1700</td>
+                    <td>85000</td>
+                    <td>680</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1800</td>
+                    <td>90000</td>
+                    <td>720</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1900</td>
+                    <td>95000</td>
+                    <td>760</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td>100000</td>
+                    <td>800</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2100</td>
+                    <td>105000</td>
+                    <td>840</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2200</td>
+                    <td>110000</td>
+                    <td>880</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2300</td>
+                    <td>115000</td>
+                    <td>920</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2400</td>
+                    <td>120000</td>
+                    <td>960</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2500</td>
+                    <td>125000</td>
+                    <td>1000</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2600</td>
+                    <td>130000</td>
+                    <td>1040</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2700</td>
+                    <td>135000</td>
+                    <td>1080</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2800</td>
+                    <td>140000</td>
+                    <td>1120</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2900</td>
+                    <td>145000</td>
+                    <td>1160</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3000</td>
+                    <td>150000</td>
+                    <td>1200</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3100</td>
+                    <td>155000</td>
+                    <td>1240</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3200</td>
+                    <td>160000</td>
+                    <td>1280</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3300</td>
+                    <td>165000</td>
+                    <td>1320</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3400</td>
+                    <td>170000</td>
+                    <td>1360</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3500</td>
+                    <td>175000</td>
+                    <td>1400</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3600</td>
+                    <td>180000</td>
+                    <td>1440</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3700</td>
+                    <td>185000</td>
+                    <td>1480</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3800</td>
+                    <td>190000</td>
+                    <td>1520</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3900</td>
+                    <td>195000</td>
+                    <td>1560</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4000</td>
+                    <td>200000</td>
+                    <td>1600</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function copyContent() {
+            const el = document.createElement('textarea');
+            el.value = document.querySelector('.container').innerText;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+            alert('Content copied to clipboard');
+        }
+    </script>
+</body>
+</html>
